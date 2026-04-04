@@ -16,12 +16,12 @@ export default function Footer() {
   const hasNext = current < TOTAL_EXERCISES;
 
   return (
-    <footer className="fixed bottom-0 left-0 w-full h-14 bg-white border-t border-gray-200 flex items-center justify-between px-6">
+    <footer className="fixed bottom-0 left-0 flex h-14 w-full items-center justify-between border-t border-gray-200 bg-gradient-to-r from-orange-50 via-white to-teal-100 px-6">
       <div className="w-24">
         {hasPrev && (
           <Link
             href={`/exercise/${current - 1}`}
-            className="text-sm font-medium text-gray-600 hover:text-blue-800 transition-colors hover:underline"
+            className="text-sm font-medium text-gray-600 transition-colors hover:text-blue-800 hover:underline"
           >
             ← Previous
           </Link>
@@ -32,11 +32,11 @@ export default function Footer() {
         Exercise {current} / {TOTAL_EXERCISES}
       </span>
 
-      <div className="w-24 flex justify-end">
+      <div className="flex w-24 justify-end">
         {hasNext && (
           <Link
             href={`/exercise/${current + 1}`}
-            className="text-sm font-medium text-gray-600 hover:text-blue-800 transition-colors hover:underline"
+            className="text-sm font-medium text-gray-600 transition-colors hover:text-blue-800 hover:underline"
           >
             Next →
           </Link>
