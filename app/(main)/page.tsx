@@ -19,7 +19,7 @@ export default function Home() {
         </ol>
       </main>
       <div className="flex flex-col items-center justify-center py-4">
-        <p className="text-sm italic text-gray-700 text-center">
+        <p className="text-center text-sm italic text-gray-700">
           Created by{" "}
           <Link href="https://tsiv.dev/" className="text-blue-800 hover:underline">
             Daniel Tsivkovski
@@ -28,7 +28,8 @@ export default function Home() {
           <Link href="https://dylanravel.com/" className="text-blue-800 hover:underline">
             Dylan Ravel
           </Link>{" "}
-          in association with Chapman Computer Science Club. <br/>Free to use and modify with attribution under the{" "}
+          in association with Chapman Computer Science Club. <br />
+          Free to use and modify with attribution under the{" "}
           <Link
             href="https://github.com/dtsivkovski/tailwind-workshop/blob/main/LICENSE"
             className="text-blue-800 hover:underline"
