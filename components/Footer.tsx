@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const TOTAL_EXERCISES = 10;
+const TOTAL_EXERCISES = 5;
 
 export default function Footer() {
   const pathname = usePathname();
