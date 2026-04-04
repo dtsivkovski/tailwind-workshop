@@ -16,6 +16,11 @@ export default function Home() {
               Exercise 2 - Hover Effect
             </a>
           </li>
+          <li className="text-lg text-gray-700">
+            <a href="/exercise/3" className="text-blue-800 hover:underline">
+              Exercise 3 - Padding and Margin
+            </a>
+          </li>
         </ol>
       </main>
       <div className="flex flex-col items-center justify-center py-4">
