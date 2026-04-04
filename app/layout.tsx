@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-x-hidden scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <main className="flex min-h-screen flex-grow flex-col items-center justify-center">{children}</main>
+        <main className="flex min-h-screen flex-grow flex-col">{children}</main>
         <Footer />
       </body>
     </html>
