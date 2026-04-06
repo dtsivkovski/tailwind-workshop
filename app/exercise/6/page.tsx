@@ -23,6 +23,7 @@ export default function ExerciseTwo() {
                       src={src}
                       alt={alt}
                       fill
+                      sizes="30vw"
                     />
                   </div>
                 );
