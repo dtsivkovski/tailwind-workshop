@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { HeartIcon, HistoryIcon } from "lucide-react";
 
-export default function ExerciseThree() {
+export default function ExerciseSeven() {
   return (
     <div className="flex min-h-screen">
       <main className="flex flex-1 flex-col items-center justify-center gap-4">
