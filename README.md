@@ -7,7 +7,7 @@ This is a workshop created by Daniel Tsivkovski and Dylan Ravel for Chapman Comp
 
 ## What is Tailwind and why should I learn it?
 
-Tailwind is an extremely useful tool for styling your websites using predefined classes. This is a wonderful shortcut to avoid creating custom CSS files and classes as much as possible, while using a structured class definition that makes it easy to learn and intuit what to write. 
+Tailwind is an extremely useful tool for styling your websites using predefined classes. This is a wonderful shortcut to avoid creating custom CSS files and classes as much as possible, while using a structured class definition that makes it easy to learn and intuit what to write.
 
 ## Slides Availability
 
