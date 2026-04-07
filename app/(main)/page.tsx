@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 
 export default function Home() {
   const exercises = [
@@ -30,7 +31,7 @@ export default function Home() {
           ))}
         </div>
       </main>
-      <footer className="mx-8 flex flex-col items-center justify-center py-4">
+      <footer className="mx-8 flex flex-col items-center justify-center gap-2 py-4">
         <p className="text-center text-sm italic text-gray-700">
           Created by{" "}
           <Link href="https://tsiv.dev/" className="text-blue-800 hover:underline">
@@ -50,6 +51,9 @@ export default function Home() {
           </Link>
           .
         </p>
+        <Link href="https://github.com/dtsivkovski/tailwind-workshop">
+          <SiGithub className="text-gray-700 transition-colors duration-300 hover:text-black" />
+        </Link>
       </footer>
     </div>
   );
