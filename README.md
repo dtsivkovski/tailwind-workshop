@@ -11,7 +11,7 @@ Tailwind is an extremely useful tool for styling your websites using predefined 
 
 ## Slides Availability
 
-The slides will be posted and linked here once the workshop has concluded for anyone to access.
+The [Tailwind Workshop Slides](https://github.com/dtsivkovski/tailwind-workshop/blob/7b9ea579bd10c3ff8102c155841690a1cab27632/Tailwind%20Workshop%20-%20CS%20Club.pdf) are available to follow along with the lessons included in the code file. This includes setup instructions if you have never run an npm project before.
 
 ## License
 
